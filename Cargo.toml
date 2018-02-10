@@ -1,0 +1,10 @@
+[package]
+name = "node-embed"
+version = "0.1.0"
+authors = ["Amila Welihinda <amilajack@gmail.com>"]
+
+[build-dependencies]
+bindgen = "*"
+
+[dependencies]
+libloading = "0.5"
